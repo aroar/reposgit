@@ -12,6 +12,7 @@ if(!$cgi->param){
  print $cgi->p('Apellido');
  print $cgi->textfield(-name=>'apellido',-size=>20);
  print $cgi->submit(-value=>'enviar');
+ print $cgi->end_form;
 }else{
  # if empty fields? 
  #
